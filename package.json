@@ -1,0 +1,31 @@
+{
+  "name": "gtf-cli",
+  "version": "1.0.0",
+  "description": "a simple google translate file tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "bin": {
+    "gtf": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaking-Z/gtf-cli.git"
+  },
+  "author": "jaking",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaking-Z/gtf-cli/issues"
+  },
+  "homepage": "https://github.com/jaking-Z/gtf-cli#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "google-translate-open-api": "^1.3.2",
+    "inquirer": "^7.0.3",
+    "officegen": "^0.6.3",
+    "ora": "^4.0.3",
+    "textract": "^2.5.0",
+    "word-extractor": "^0.3.0"
+  }
+}
