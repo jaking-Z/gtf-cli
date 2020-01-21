@@ -3,7 +3,7 @@
 
 
 ### 1.安装
-* 检查是否已经安装nodejs，若未安装可前往[下载]([链接地址](http://nodejs.cn/download/))
+* 检查是否已经安装nodejs，若未安装可前往[下载](http://nodejs.cn/download/)
   ```javascript
   // 在终端输入
   node --version
